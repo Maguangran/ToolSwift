@@ -12,6 +12,7 @@
 		880CAE8B1F42817F00381464 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880CAE891F42817F00381464 /* Main.storyboard */; };
 		880CAE8D1F42817F00381464 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 880CAE8C1F42817F00381464 /* Assets.xcassets */; };
 		880CAE901F42817F00381464 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 880CAE8E1F42817F00381464 /* LaunchScreen.storyboard */; };
+		88E355D01FD5768D00379F92 /* HttpTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88E355CF1FD5768D00379F92 /* HttpTool.swift */; };
 		9AC5D41F43E9C73DA88F9A97 /* Pods_ToolDemoS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 970807A52AC07CD9EB13EE58 /* Pods_ToolDemoS.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +25,7 @@
 		880CAE8C1F42817F00381464 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		880CAE8F1F42817F00381464 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		880CAE911F42817F00381464 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88E355CF1FD5768D00379F92 /* HttpTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpTool.swift; sourceTree = "<group>"; };
 		970807A52AC07CD9EB13EE58 /* Pods_ToolDemoS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ToolDemoS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C71150787B0F85E19252E289 /* Pods-ToolDemoS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ToolDemoS.release.xcconfig"; path = "Pods/Target Support Files/Pods-ToolDemoS/Pods-ToolDemoS.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -63,6 +65,7 @@
 			children = (
 				880CAE851F42817F00381464 /* AppDelegate.swift */,
 				880CAE871F42817F00381464 /* ViewController.swift */,
+				88E355CF1FD5768D00379F92 /* HttpTool.swift */,
 				880CAE891F42817F00381464 /* Main.storyboard */,
 				880CAE8C1F42817F00381464 /* Assets.xcassets */,
 				880CAE8E1F42817F00381464 /* LaunchScreen.storyboard */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				88E355D01FD5768D00379F92 /* HttpTool.swift in Sources */,
 				880CAE881F42817F00381464 /* ViewController.swift in Sources */,
 				880CAE861F42817F00381464 /* AppDelegate.swift in Sources */,
 			);
@@ -379,6 +383,7 @@
 				880CAE961F42817F00381464 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
